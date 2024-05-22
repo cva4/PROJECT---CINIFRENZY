@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment Methods</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        background-image: url("upi2.png");
+	      background-repeat: no-repeat;
+	      background-size:1900px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #4caf50;
+      }
+
+      .payment-options {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+      }
+
+      .payment-option {
+        text-align: center;
+        background-color:aqua;
+        border: 1px solid #ccc;
+        padding: 20px;
+        width: 300px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+      }
+
+      .payment-option img {
+        width: 100px;
+        margin-bottom: 20px;
+      }
+
+      .payment-option button {
+        background-color: #ccc;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .payment-option button:hover {
+        background-color:whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Choose a Payment Option</h1>
+    <div class="payment-options">
+      <div class="payment-option">
+        <img src="phonepe.png" alt="PhonePe">
+        <h2>PhonePe</h2>
+        <p>Make a payment using PhonePe</p>
+        <button><a href='ticketconfirmation.html'>Pay Now</a></button>
+      </div>
+      <div class="payment-option">
+        <img src="gpay.png" alt="Google Pay">
+        <h2>Google Pay</h2>
+        <p>Make a payment using Google Pay</p>
+        <button><a href='ticketconfirmation.html'>Pay Now</a></button>
+      </div>
+      <div class="payment-option">
+        <img src="paytm.png" alt="Paytm">
+        <h2>Paytm</h2>
+        <p>Make a payment using Paytm</p>
+        <button><a href='ticketconfirmation.html'>Pay Now</a></button>
+      </div>
+    </div>
+  </body>
+</html>
