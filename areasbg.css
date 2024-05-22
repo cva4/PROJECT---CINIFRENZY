@@ -1,0 +1,39 @@
+*{
+    margin:10;
+    padding: 10;
+    box-sizing: border-box;
+    border-color: black;
+
+}
+body {
+    min-height: 50vh;
+    border-color: black;
+    
+    
+    background-image: url("areas1.jpg");
+	background-repeat: no-repeat;
+	background-size: 1550px;
+    background-color: rgb(55, 53, 53);
+    background-position: 
+    
+
+}
+
+.main 
+{
+    position: absolute;
+    justify-content: right;
+    align-items: right;
+    margin-top: 50px;
+    width:90vw;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,280px));
+    column-gap: 20px;
+    row-gap: 100px;
+}
+img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
